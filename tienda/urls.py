@@ -23,4 +23,4 @@ from django.conf import settings
 urlpatterns = [
     path('', include('carrito.urls', namespace='carrito')),
     path('admin/', admin.site.urls),
-]
+] 

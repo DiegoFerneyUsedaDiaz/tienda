@@ -4,6 +4,6 @@ from carrito import views
 
 app_name = 'carrito'
 urlpatterns = [
-    path ('', TemplateView.as_view(template_name='index.html'), name='index'),
+    path('', views.index, name='index'),
 ]
 

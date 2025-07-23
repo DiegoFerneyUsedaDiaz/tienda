@@ -19,14 +19,14 @@
       <p>Prodcutos Tecnologicos</p>
     </div>
     <div class="row">
-    {% for producto in productos %}
+    {% for prodcto in productos %}
       <div class="col-md-4">
         <div class="card">
           <div class="card-body">
             <h5 class="card-title" style="color: rgb(53, 53, 53);">{{ producto.nombre }}</h5>
             <p class="card-text"> Descripcion: {{ producto.descripcion }} </p>
             <p class="card-text"> Precio: {{ producto.precio}} </p>
-            <p class="card-text"> Stock: {{ producto.cantidad }} </p>
+            <p class="card-text"> Stock: {{ producto.stock }} </p>
           </div>
         </div>
       </div>
