@@ -12,7 +12,6 @@ class Producto(models.Model):
         return self.nombre
     
     class Meta:
-        verbose_name = 'Producto'
         verbose_name_plural = 'Productos'
 
 class Carrito(models.Model):
@@ -23,7 +22,6 @@ class Carrito(models.Model):
         return f"{self.cantidad} x {self.producto.nombre}"
     
     class Meta:
-        verbose_name = 'Carrito'
         verbose_name_plural = 'Carritos'
         
 class ItemCarrito(models.Model):
